@@ -29,5 +29,5 @@ class KNN:
 
 k = KNN() #create KNN object
 group,labels = k.createDataset()
-cls = k.KnnClassify([0,0],group,labels,3)
+cls = k.KnnClassify([0.1,0.1],group,labels,3)
 print (cls)
